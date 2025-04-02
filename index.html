@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entregas frecuente</title>
+    <link rel="stylesheet" href="boot.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Entregas Frecuentes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <br>  
+  <div>
+    <h2 class="text-center mb-4">Introduccion</h2>
+  
+    <div style="display: flex; justify-content: center;">
+      <p style="max-width: 600px; text-align: center;" className="text-lg text-gray-600 leading-relaxed">
+        El desarrollo de software ha evolucionado con metodologías que buscan mejorar la eficiencia y la satisfacción del cliente. Uno de los principios fundamentales del Manifiesto Ágil es la entrega frecuente de software funcional. Hoy exploraremos por qué este principio es crucial y cómo impacta en la calidad del producto y la relación con los clientes.
+      </p>
+    </div>
+    </div>  
+
+  <br>
+ 
+  <div>
+    <h2 class="text-center mb-4">Que es la entrega frecuente de actualizacion?</h2>
+  
+    <div style="display: flex; justify-content: center;">
+      <p style="max-width: 600px; text-align: center;" className="text-lg text-gray-600 leading-relaxed">
+        La entrega frecuente de software es un principio fundamental del desarrollo ágil. Se trata de lanzar versiones funcionales de un producto en intervalos cortos, permitiendo mejorar continuamente y recibir retroalimentación constante de los clientes.
+      </p>
+    </div>
+    </div>  
+
+  <br>
+   
+  
+
+    <br>
+  
+
+  <div class="container mt-4">
+    <h2 class="text-center mb-4">Principios de las entregas frecuente</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <img src="imagenes/pastel.avif" class="img-fluid rounded" alt="Principio 1">
+        <div class="mt-2">
+          <h5>Planificación Iterativa y Priorización de Requisitos</h5>
+          <p> - Dividir el proyecto en pequeñas entregas funcionales (sprints o iteraciones) y 
+             priorizar las funcionalidades con mayor valor para el cliente.</p>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <img src="imagenes/entrega continua con herramientas como GitHub Actions o Jenkins.png" class="img-fluid rounded" alt="Principio 2">
+        <div class="mt-2">
+          <h5>Desarrollo e Integración Continua</h5>
+          <p>Implementar entrega continua con herramientas de integración como Jenkins, GitHub Actions o GitLab CI/CD y 
+            hacer pruebas automatizadas para asegurar la calidad antes de cada entrega.</p>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <img src="imagenes/img2.webp" class="img-fluid rounded" alt="Principio 3">
+        <div class="mt-2">
+          <h5>Revisión y Retroalimentación Constante</h5>
+          <p>Hacer demos al cliente o usuarios al final de cada sprint y 
+
+            recoger comentarios y adaptarse rápidamente a los cambios.</p>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <img src="imagenes/img3.avif" class="img-fluid rounded" alt="Principio 4">
+        <div class="mt-2">
+          <h5>Despliegue y Monitoreo en Producción</h5>
+          <p>Monitorear el rendimiento y detectar errores rápidamente</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  
+  <style>
+    .accordion-body {
+      display: flex;
+      align-items: center;
+    }
+    .accordion-body img {
+      max-width: 150px;
+      margin: 0 15px;
+    }
+    #collapseOne .accordion-body img {
+      order: 2; /* Image on the right for Ventajas */
+    }
+    #collapseTwo .accordion-body img {
+      order: 0; /* Image on the left for Desventajas */
+    }
+  </style>
+  
+  <div class="container mt-4">
+    <h2 class="text-center mb-4">Ventajas de la entrega frecuente</h2>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Ventajas
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Menos tiempo de planificación: Al dividir el desarrollo en pequeñas iteraciones, se facilita la organización del trabajo y se reducen los riesgos.
+
+              Menos errores: Las entregas más pequeñas permiten detectar y corregir problemas antes de que se acumulen.
+              
+              Mayor retroalimentación: Los clientes pueden probar el software en etapas tempranas y solicitar ajustes sin grandes cambios estructurales.
+              
+              Adaptabilidad al mercado: Permite responder rápidamente a nuevas tendencias o necesidades del cliente.
+              </p>
+            <img src="imagenes/ventajas.jpeg" class="img-fluid rounded mb-3" alt="Ventajas">
+          </div>
+        </div>
+      </div>
+        
+    </div>
+  </div>
+  
+  <br>
+
+  <div>
+    <h2 class="text-center mb-4">Ejemplo practico:</h2>
+  
+    <div style="display: flex; justify-content: center;">
+      <p style="max-width: 600px; text-align: center;" className="text-lg text-gray-600 leading-relaxed">
+        Una empresa desarrolla una app de mensajería. En la primera versión, solo permite enviar textos. Dos semanas después, agregan imágenes. Luego, llamadas de voz. Así, los usuarios reciben mejoras constantes sin esperar una gran actualización.
+      </p>
+    </div>
+    </div>  
+
+  <br>
+ <div>
+  <h2 class="text-center mb-4">Apoyo Audiovisual</h2>
+  <div style="display: flex; justify-content: center; margin: 20px 0;">
+    <iframe width="560" height="315" src="Proyectos ágiles y la entrega de valor.mp4" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+<script src="boot.js"></script>
+</body>
+</html>
